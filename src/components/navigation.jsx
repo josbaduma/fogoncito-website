@@ -15,7 +15,7 @@ const Navigation = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <a className="navbar-brand page-scroll" href="#page-top">
+      <a className="navbar-brand page-scroll text-break" href="#page-top">
         Restaurante Tipico EL Fongoncito
       </a>
 
