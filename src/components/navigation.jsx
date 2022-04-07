@@ -15,8 +15,8 @@ const Navigation = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <a className="navbar-brand page-scroll text-break" href="#page-top">
-        Restaurante Tipico EL Fongoncito
+      <a className="navbar-brand page-scroll" href="#page-top">
+        <img src="img/favicon/favicon.ico" alt="Restaurante Tipico El Fogoncito" width="48" height="48"/>
       </a>
 
       <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
