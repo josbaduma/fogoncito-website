@@ -70,7 +70,8 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 10px;
+  width: 98% !important;
   transition: all 0.8s;
 }
 #menu.navbar-light {
@@ -102,7 +103,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #f28534 0%,  #f2ab35 50%, #ffe57e 100%);
+  background: linear-gradient(to right, #f28534 0%, #f2ab35 50%, #ffe57e 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -123,7 +124,12 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #f28534 0%, #f2ab35 50%, #ffe57e 100%) !important;
+  background: linear-gradient(
+    to right,
+    #f28534 0%,
+    #f2ab35 50%,
+    #ffe57e 100%
+  ) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -150,7 +156,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #ffe57e 0%,  #f2ab35 50%, #f28534 100%);
+  background: linear-gradient(to right, #ffe57e 0%, #f2ab35 50%, #f28534 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -246,7 +252,8 @@ header .intro-text {
 #features {
   background: #f6f6f6;
 }
-#features i.fa {
+#features i.fa,
+#features i.fab {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -295,7 +302,8 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  width: 520px;
+  width: 100%;
+  max-width: 520px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
@@ -309,7 +317,7 @@ header .intro-text {
 #services {
   padding: 100px 0;
   background: linear-gradient(to right, #f28534 0%, #f2ab35 50%, #ffe57e 100%);
-  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.15);
   color: #fff;
 }
 #services .service-desc {
@@ -328,7 +336,8 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#services i.fa,
+#services i.fab {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -353,6 +362,35 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
 }
+#portfolio .features-list {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 16px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#portfolio .features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 5px;
+  font-size: 15px;
+  margin-left: 0;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#portfolio .features ul {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  #portfolio .features {
+    grid-template-columns: 1fr;
+  }
+}
+
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -362,6 +400,10 @@ header .intro-text {
   position: relative;
   margin: 0;
 }
+#portfolio .carousel-inner .carousel-item img {
+  height: 300px;
+}
+
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
@@ -457,11 +499,18 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+/* Menu Restaurant */
+#menuModal .modal-dialog,
+#menuModal .modal-dialog img {
+  width: 100%;
+  max-width: 800px;
+}
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #f28534 0%, #f2ab35 50%, #ffe57e 100%);
-  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.15);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -557,7 +606,8 @@ label {
   margin-bottom: 10px;
   display: block;
 }
-#contact .contact-item i.fa {
+#contact .contact-item i.fa,
+#contact .contact-item i.fab {
   margin-right: 10px;
 }
 #contact .social {
@@ -570,7 +620,8 @@ label {
   display: inline-block;
   margin: 0 20px;
 }
-#contact .social i.fa {
+#contact .social i.fa,
+#contact .social i.fab {
   font-size: 22px;
   width: 48px;
   height: 48px;
@@ -580,7 +631,8 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
-#contact .social i.fa:hover {
+#contact .social i.fa:hover,
+#contact .social i.fab:hover {
   color: #608dfd;
   background: #fff;
 }
@@ -601,6 +653,10 @@ label {
 }
 
 @media (max-width: 768px) {
+  .intro h1 {
+    font-size: 36px;
+  }
+
   #about img {
     margin: 50px 0;
   }

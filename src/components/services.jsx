@@ -5,8 +5,7 @@ const Services = (props) => {
         <div className='section-title'>
           <h2>Servicios</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            En nuestro restaurante encontraras los siguientes servicios disponibles.
           </p>
         </div>
         <div className='row'>

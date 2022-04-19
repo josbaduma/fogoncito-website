@@ -20,66 +20,41 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "src": "/img/portfolio/01-terios.jpg",
+      "altText": "Terios 2015",
+      "caption": "Terios 2015"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "src": "/img/portfolio/02-terios.jpg",
+      "altText": "Terios 2015 Automatico",
+      "caption": "Terios 2015 Automatico"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "src": "/img/portfolio/03-terios.jpg",
+      "altText": "Terios 2015 Interior",
+      "caption": "Terios 2015 Interior"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "src": "/img/portfolio/04-terios.jpg",
+      "altText": "Terios 2015 Cajuela",
+      "caption": "Terios 2015 Cajuela"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fab fa-solid fa-truck-fast",
+      "name": "Express",
+      "text": "Manejamos un servicio de express propio, donde pueden solicitar nuestros platillos por medio del numero de telefono 8635-0220."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fab fa-solid fa-truck-fast",
+      "name": "Plataformas de Delivery",
+      "text": "Adicionalmente, ofrecemos nuestros platillos por medio de plataformas de delivery como Uber Eats, Didi Food y Pedidos Ya."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-solid fa-cake-candles",
+      "name": "Celebramos al cumpleanero",
+      "text": "En el restaurante le ofrecemos al cumpleanero del dia descuentos y un pastel para celebrar ese dia tan especial."
     }
   ],
   "Testimonials": [
@@ -114,55 +89,12 @@
       "name": "Johnathan Doe"
     }
   ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "Alejandro Leon Villegas",
-      "job": "Gerente"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
   "Contact": {
     "address": "Villa Bonita de Alajuela, Frente a UTN, Alajuela, Costa Rica Alajuela, 20101",
     "phone": "+506 8635 0220",
-    "email": "",
+    "email": "fogoncitovillegas@gmail.com",
     "facebook": "https://www.facebook.com/profile.php?id=100063747361910",
-    "instagram": "https://www.instagram.com/restaurantetipicoelfogoncito/"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+    "instagram": "https://www.instagram.com/restaurantetipicoelfogoncito/",
+    "whatsapp": "https://wa.me/50686350220"
+  }
 }
