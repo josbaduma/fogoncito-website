@@ -1,11 +1,32 @@
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 const About = (props) => {
+  const items = props.data ? props.data.img : [];
+
+  // Carousel Item Data
+  const carouselItemData = items.map((item) => (
+    <div key="{item}">
+      <img className="d-block w-100" src={item.src} alt={item.altText} />
+    </div>
+  ));
+
+  const settings = {
+    dynamicHeight: true,
+    showThumbs: false,
+    infiniteLoop: true,
+    autoPlay: true,
+    swipeable: true,
+  };
+
   return (
     <div id="about">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <Carousel {...settings}>
+              {carouselItemData}
+            </Carousel>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">

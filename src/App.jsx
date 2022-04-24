@@ -5,11 +5,14 @@ import About from "./components/about";
 import Services from "./components/services";
 import Testimonials from "./components/testimonials";
 import Contact from "./components/contact";
-import JsonData from "./data/data.json";
+import JsonData from "./data/es/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import Menu from "./components/menu";
 import Gallery from "./components/gallery";
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,

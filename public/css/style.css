@@ -71,7 +71,7 @@ hr {
 /* Navigation */
 #menu {
   padding: 10px;
-  width: 98% !important;
+  width: 100% !important;
   transition: all 0.8s;
 }
 #menu.navbar-light {
@@ -504,7 +504,7 @@ header .intro-text {
 #menuModal .modal-dialog,
 #menuModal .modal-dialog img {
   width: 100%;
-  max-width: 800px;
+  max-width: 680px;
 }
 /* Contact Section */
 #contact {

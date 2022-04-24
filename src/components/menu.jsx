@@ -1,4 +1,29 @@
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 const Menu = (props) => {
+  const items = [
+    { src: "/img/menu/es/menu-page-01.jpg" },
+    { src: "/img/menu/es/menu-page-02.jpg" },
+    { src: "/img/menu/es/menu-page-03.jpg" },
+    { src: "/img/menu/es/menu-page-04.jpg" },
+    { src: "/img/menu/es/menu-page-05.jpg" },
+  ];
+  // Carousel Item Data
+  const carouselItemData = items.map((item) => (
+    <div key="{item}">
+      <img className="d-block w-100" src={item.src} alt="Menu de Restaurante" />
+    </div>
+  ));
+
+  const settings = {
+    dynamicHeight: true,
+    showThumbs: false,
+    infiniteLoop: true,
+    autoPlay: true,
+    swipeable: true,
+  };
+
   return (
     <div
       className="modal fade"
@@ -23,7 +48,7 @@ const Menu = (props) => {
             </button>
           </div>
           <div className="modal-body">
-              <img src="/img/menu-1.jpg" alt="Menu Restaurante" />
+            <Carousel {...settings}>{carouselItemData}</Carousel>
           </div>
         </div>
       </div>

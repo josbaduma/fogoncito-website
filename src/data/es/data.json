@@ -1,0 +1,127 @@
+{
+  "Header": {
+    "title": "Restaurante Tipico El Fogoncito",
+    "paragraph": "El restaurante Típico el Fogoncito ofrece una variedad de platillos costarricenses para su disfrute."
+  },
+  "About": {
+    "paragraph": "Restaurante familiar, con especialidad en comida típica costarricense, nos encanta brindar una excelente atención al cliente y una linda experiencia para cada persona que nos visita.",
+    "Why": ["Comida Típica", "Historia de antaño", "Ambiente único"],
+    "Why2": ["Celebramos al cumpleañero", "Música Costarricense"],
+    "img": [
+      {
+        "src": "/img/about.jpg",
+        "altText": "Frente del restaurante 1",
+        "caption": "Frente del restaurante 1"
+      },
+      {
+        "src": "/img/frente-fogoncito.jpg",
+        "altText": "Frente del restaurante 2",
+        "caption": "Frente del restaurante 2"
+      },
+      {
+        "src": "/img/fotografias-unicas.jpg",
+        "altText": "Fotografías Únicas",
+        "caption": "Fotografías Únicas"
+      },
+      {
+        "src": "/img/arroz-cantones.jpg",
+        "altText": "Arroz Cantones",
+        "caption": "Arroz Cantones"
+      },
+      {
+        "src": "/img/arroz-camarones.jpg",
+        "altText": "Arroz con Camarones",
+        "caption": "Arroz con Camarones"
+      },
+      {
+        "src": "/img/objetos-antiguos.jpg",
+        "altText": "Objetos Antigüos",
+        "caption": "Objetos Antigüos"
+      },
+      {
+        "src": "/img/cumpleanero.jpg",
+        "altText": "Cumpleañeros",
+        "caption": "Cumpleañeros"
+      }
+    ]
+  },
+  "Gallery": [
+    {
+      "src": "/img/portfolio/01-terios.jpeg",
+      "altText": "Terios 2015",
+      "caption": "Terios 2015"
+    },
+    {
+      "src": "/img/portfolio/02-terios.jpeg",
+      "altText": "Terios 2015 Automático",
+      "caption": "Terios 2015 Automático"
+    },
+    {
+      "src": "/img/portfolio/03-terios.jpeg",
+      "altText": "Terios 2015 Interior",
+      "caption": "Terios 2015 Interior"
+    },
+    {
+      "src": "/img/portfolio/04-terios.jpeg",
+      "altText": "Terios 2015 Cajuela",
+      "caption": "Terios 2015 Cajuela"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fab fa-solid fa-truck-fast",
+      "name": "Express",
+      "text": "Manejamos un servicio de express propio, donde pueden solicitar nuestros platillos por medio del número de teléfono 8635-0220."
+    },
+    {
+      "icon": "fab fa-solid fa-truck-fast",
+      "name": "Plataformas de Delivery",
+      "text": "Adicionalmente, ofrecemos nuestros platillos por medio de plataformas de delivery como Uber Eats, Didi Food y Pedidos Ya."
+    },
+    {
+      "icon": "fa fa-solid fa-cake-candles",
+      "name": "Celebramos al cumpleanero",
+      "text": "En el restaurante le ofrecemos al cumpleañero del día descuentos y un pastel para celebrar ese día tan especial."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Excelente comida, atención y precios accesibles. Un excelente lugar para celebrar cumpleaños en familia.\"",
+      "name": "Wendy BC"
+    },
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Totalmente recomendados! La comida es deliciosa y el servicio al Cliente Excelente. Se entregan con gran cariño a los detalles y chineos para los clientes. Gracias!!\"",
+      "name": "Sil Barquero"
+    },
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Excelente ambiente, deliciosa comida y un servicio de primera! La pasamos de lo mejor !!!\"",
+      "name": "Osvaldo Quesada"
+    },
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Es un restaurante manejado por una familia que se esmera por dar un excelente trato a los clientes. La comida es muy buena básicamente es comida típica costarricense. El gallo pinto es de lo mejor. Lo Recomiendo\"",
+      "name": "Adrian Alvarado"
+    },
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Comida excelente y platos generosos, a los cuales se añaden una atención perfecta (entrante y dulces después de la comida regalados, personal muy amable). Muy recomendable!!\"",
+      "name": "Aude Ravit"
+    },
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Excelente relación entre sabor-porcion-precio, la foto no lenhace justicia!!! Es deliciosa la comida y es una porción bastante grande!!! y si va el día de su cumpleaños come gratis y le regalan un queque completo!!!!\"",
+      "name": "Stephanie Espinoza"
+    }
+  ],
+  "Contact": {
+    "address": "Villa Bonita de Alajuela, Frente a UTN, Alajuela, Costa Rica Alajuela, 20101",
+    "phone": "+506 8635 0220",
+    "email": "fogoncitovillegas@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=100063747361910",
+    "instagram": "https://www.instagram.com/restaurantetipicoelfogoncito/",
+    "whatsapp": "https://wa.me/50686350220"
+  }
+}
